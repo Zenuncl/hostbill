@@ -1,0 +1,14 @@
+{
+  "name": "hostbill/installtools",
+  "version": "1.20221006",
+  "require": {
+    "php": ">=7.3",
+    "league/climate": "3.8.2"
+  },
+  "config": {
+    "platform-check": false,
+    "platform": {
+      "php": "7.3"
+    }
+  }
+}

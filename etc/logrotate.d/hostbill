@@ -1,0 +1,10 @@
+/home/hostbill/templates_c/*.log {
+    daily
+    rotate 10
+    size 10M
+    compress
+    notifempty
+    missingok
+    su hostbill hostbill
+    create 0660 hostbill hostbill
+}
